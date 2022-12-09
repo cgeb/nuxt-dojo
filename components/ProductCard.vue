@@ -10,13 +10,12 @@
 
 <script setup lang="ts">
 const { product } = defineProps(["product"]);
-console.log(product)
 </script>
 
 <style scoped>
-  .thumb {
-    height: 120px;
-    max-width: 70%;
-    margin: 0 auto;
-  }
+.thumb {
+  height: 120px;
+  max-width: 70%;
+  margin: 0 auto;
+}
 </style>
